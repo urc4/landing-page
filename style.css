@@ -111,6 +111,36 @@ body {
     font-size: 18px;
 }
 
+.signup-call {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-call .card {
+    margin: 1.5rem;
+    width: 700px;
+    color: white;
+    background: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-call .title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.signup-call p {
+    font-size: 18px;
+}
+
+.signup-call .signup-button {
+    border: 1px solid white;
+}
+
 
 .footer {
     padding: 1.5rem;
