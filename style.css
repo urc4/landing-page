@@ -25,7 +25,7 @@ body {
      background: #3882f6;
  }
 
-.header,
+.header-container,
  .welcome,
    .footer {
     background: #1f2937;
@@ -33,12 +33,19 @@ body {
     color: #e5e7eb;
 }
 
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     /* flex-grow: 1; */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 5rem;
+    width: 1000px;
+    margin: 0 8rem;
 }
 
 .header .logo {
