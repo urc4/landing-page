@@ -176,16 +176,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 .signup-call .card {
     margin: 1.5rem;
-    width: 700px;
+    width: 800px;
     color: white;
     background: #3882f6;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    padding: 20px 30px;
+    gap: 100px;
 }
 
 .signup-call .title {
@@ -194,6 +199,7 @@ body {
 }
 
 .signup-call p {
+    margin-top: 0;
     font-size: 18px;
 }
 
